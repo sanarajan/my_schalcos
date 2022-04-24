@@ -1,0 +1,49 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+
+
+@media (max-width: 1200px) {
+    .menu_bar_dv li a{
+        padding-right: 0.8rem !important;
+        padding-left: 0.8rem !important;
+    }
+}
+@media (max-width: 1080px) {
+
+}
+@media (max-width: 1000px) {
+ 
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler{position: absolute;right: 30px;top: 20px;}
+    .top_contact_box{padding-left: 10px; font-size: 11px;letter-spacing: -0.5px;}
+ }
+ @media (max-width: 768px) {
+   .enquiry_btn{margin-top: 0;}
+  .logo_sec{text-align: center;}
+  .navbar-toggler {position: absolute;left: 0;right: inherit;top: 10px;z-index: 9;}
+  .menu_bar_dv {margin-top: 66px;}
+  .top_contact_box{margin-top: 3px;font-size: 12px;letter-spacing:0px;padding-left: 20px}
+  .top_social_sec{text-align: center;margin-top: 5px;}
+  .top_social_sec a{display: inline-block;float: none;}
+  .banner_contant_box{left: 3%;}
+  .footer_copy_txt2{text-align: center;}
+  .footer_copy_txt1{text-align: center;}
+  .footer_soc_sec .top_social_sec{width: 123px;}
+  .footer_section_box{margin-bottom: 30px;}
+  .footer_section_box_head{margin-bottom: 10px;}
+  .estimate_section_right{padding-left: 15px;}
+  #gallery .owl-prev{left: 0;}
+  #gallery .owl-next{right: 0;}
+    .contact_details_box{width: 100%;}
+
+ }
+ @media (max-width: 475px) {
+
+ }
+ @media (max-width: 510px) {
+ 
+}
